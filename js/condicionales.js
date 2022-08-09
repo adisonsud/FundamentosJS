@@ -21,14 +21,38 @@ if(autenticado) {
 //--------------------------------------------
 // Condicion Or - And
 /*
-    || - Al menos una debe cumplirse
-    && - Todas deben cumplirse
+|| - Al menos una debe cumplirse
+&& - Todas deben cumplirse
 */
 const saldo = 600
 const pagar = 500
 const tarjeta = true
 if(saldo > pagar && tarjeta ) {
-    console.log('puedes pagar')
+  console.log('puedes pagar')
 }  else {
-    console.log('No, no puedes pagar')
+  console.log('No, no puedes pagar')
 }
+
+//--------------------------------------------
+// Ternarios
+/* 
+condicion 
+  ? (aqui se cumple la condicion) 
+  : (aqui si no se cumple la condicion)
+*/
+const autenticado1 = true
+
+autenticado1 
+    ? console.log('usuario autenticado') 
+    : console.log('No autenticado, dirigir hacia login')
+
+// Doble ternario
+const saldo1 = 600
+const pagar1 = 800
+const tarjeta1 = false
+
+saldo1 > pagar1 
+  ? console.log('Puedes pagar con saldo') 
+  : tarjeta1 
+    ? console.log('Puedes pagar con tarjeta') 
+    : console.log('No no puedes pagar')
