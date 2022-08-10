@@ -25,3 +25,14 @@ que le estoy pasando. */
 
 const enlaces = document.querySelectorAll('.navegacion a')
 console.log("enlaces: ", enlaces)
+
+/* Manipular HTML con CSS */
+const heading2 = document.querySelector('.heading')
+heading2.textContent = 'Un nuevo heading'
+console.log("cambio heading2: ",heading2.textContent)
+
+const inputNombre = document.querySelector('#nombre')
+inputNombre.value = 'Un valor por default'
+
+const enlaces1 = document.querySelectorAll('.navegacion a')
+enlaces1.forEach( enlace => enlace.textContent = 'nuevo enlace' );
