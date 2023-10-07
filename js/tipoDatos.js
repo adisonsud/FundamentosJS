@@ -29,16 +29,13 @@ console.log('Tipo de dato String-----------------');
 console.log('"Juan": ' ,typeof alumno);
 console.log('"30": ',typeof numst);
 
-//BigIn-----------------
-const numBig = BigInt(464868484844544668464848468484684);
-console.log('Tipo de dato BigInt-----------------');
-console.log('BigInt(Muchos Numeros): ',typeof numBig);
-
 //Podemos cambiar de tipo  de dato
 const num4 = '30'
 const num5 = 100
-console.log('De "30" a Number: ' ,typeof Number(30), Number(30));
-console.log('De',num5 ,'a String: ',typeof String(num5), String(num5));
+console.log('De "30" a Number: ' ,typeof Number(30), 
+            Number(30));
+console.log('De',num5 ,'a String: ',typeof String(num5), 
+            String(num5));
 
 //Symbol-----------------
 const symbol1 = Symbol(200) 
@@ -48,6 +45,7 @@ console.log('Symbol(200): ',typeof symbol1, symbol1.valueOf());
 console.log('Symbol(200): ',typeof symbol2, symbol2.valueOf());
 console.log('¿son iguales?: ' ,symbol1 === symbol2);
 console.log('Cada Symbol es único');
+
 
 //String o cadenas de texto
 const nulo = null;

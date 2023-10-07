@@ -16,15 +16,13 @@ console.log('cliente',cliente);
 console.log('desc',precioDescuento);
 // console.log(costo);
 
-
-
 // Variables - let --------------------------------- 
-let cliente1 = true
+let cliente1 = 'Adison Chire'
 let precioDescuento1 = 20 //camelCase
 
 // con la variable let se puede re asignar 
 cliente1 = 5
-cliente1 = 'Let de true -> 5 -> string'
+cliente1 = true
 
 //Pueden iniciar sin un valor
 let costo1

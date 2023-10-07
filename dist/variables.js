@@ -7,15 +7,24 @@ algunas buenas prácticas de TypeScript:
 4. Unión de Tipos con number | undefined: Para la variable costo, se ha utilizado el tipo number | undefined para indicar que puede ser undefined inicialmente. Esto proporciona una información clara sobre el posible estado de la variable.
 */
 //variable -> let
-let clienteActivo = true;
-let precioDescuentazo = 20;
+let clienteEspecial = 'Adison Chire';
+let precioEspecial = 20;
 //let -> permite reasignar a diferencia de const
-clienteActivo = false;
+clienteEspecial = 'Mario Bross';
 //Pueden iniciar sin valor
 let costo;
 costo = 100;
-console.log('Cliente Activo: ', clienteActivo);
-console.log('Precio Descuento: ', precioDescuentazo);
+console.log('Cliente Especial: ', clienteEspecial);
+console.log('Precio Descuento: ', precioEspecial);
 console.log('costo: ', costo);
 /*---------------------------------------------------------*/
 //variable -> const - el mas usado
+const clienteVip = true;
+const precioVip = 50;
+//No se puede re asignar 
+//clienteVip = false
+//No puede iniciar sin un valor
+//const costoVip: number
+console.log('cliente Vip', clienteVip);
+console.log('Precio Vip', precioVip);
+// console.log(costo);
