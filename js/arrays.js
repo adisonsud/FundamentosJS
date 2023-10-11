@@ -18,6 +18,12 @@ console.log('Evitar el push y el unshift');
 //push y unshift son un gran NO para React
 
 //En su lugar usar Spread Operator porque no modifica el principal
+
+//Descomponer un array
+const array1 = [1, 2, 3];
+const array2 = [...array1, 4, 5, 6];
+console.log(array2);
+
 console.log('Usar el Spread Operator');
 const newArray = ['Bem',...tecnologia,'GraphQL']
 
@@ -33,14 +39,15 @@ const tecnologia1 = ['HTML', 'CSS', 'react', 'JavaScript', 'Node.js']
 //En su lugar usar filter para no modificar el principal
 console.log('filtra e itera para identificar que elementos hay');
 const newArray2 = tecnologia1.filter(function (tech) {
-  return tech === 'HTML'
+  return tech !== 'HTML'
   
 })
 
 console.log('Array tecnologia');
-console.table(tecnologia);
+console.log(tecnologia);
 console.log('Array newArray2');
-console.table(newArray2);
+console.log(newArray2);
+
 //-------------------------------------------
 const tecnologia2 = ['HTML', 'CSS', 'react', 'JavaScript', 'Node.js']
 // Reemplazar elementos al array
@@ -56,10 +63,10 @@ const newArray3 = tecnologia2.map(function (tech) {
   
 })
 console.log('Array tecnologia');
-console.table(tecnologia2);
+console.log(tecnologia2);
 
 console.log('Array newArray2');
-console.table(newArray3);
+console.log(newArray3);
 
 //-------------------------------------------
 
@@ -79,7 +86,7 @@ const tecnologia4 = ['HTML', 'CSS', 'react', 'JavaScript', 'Node.js']
 //forEach
 // me permite listar y acceder a cada elemnto
 // se va a ejecutar una vez por cada elemento
-// si no hay ningun elemento no se ejecuta
+//si no hay ningun elemento no se ejecuta
 const arrayForeach = tecnologia4.forEach( function(tech) {
   return tech;  
 })
@@ -91,3 +98,7 @@ const arrayMap = tecnologia4.map( function(tech) {
 
 console.log(arrayForeach); 
 console.log(arrayMap); 
+
+
+
+
