@@ -4,7 +4,9 @@ algunas buenas prácticas de TypeScript:
 1. Nombres Descriptivos: Las variables se nombran de forma descriptiva para indicar su propósito o contenido.
 2. CamelCase: Los nombres de las variables están en camelCase, que es una convención común en TypeScript.
 3. Tipado Explícito: Se han añadido tipos explícitos para las variables para mejorar la legibilidad y la comprensión del código.
-4. Unión de Tipos con number | undefined: Para la variable costo, se ha utilizado el tipo number | undefined para indicar que puede ser undefined inicialmente. Esto proporciona una información clara sobre el posible estado de la variable.
+4. Unión de Tipos con number | undefined: Para la variable costo, se ha utilizado el tipo number |
+    undefined para indicar que puede ser undefined inicialmente.
+    Esto proporciona una información clara sobre el posible estado de la variable.
 */
 //variable -> let
 let clienteEspecial = 'Adison Chire';

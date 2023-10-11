@@ -23,6 +23,10 @@ console.log(typeof numero, " como ", typeof numeroComoNumeroString);
 // Typo Symbol
 const primerSimbolo = Symbol(3000);
 const segundoSimbolo = Symbol(3000);
-console.log(primerSimbolo.valueOf(), typeof primerSimbolo);
+// cada symbol es Unico 
+console.log(primerSimbolo, typeof primerSimbolo);
 console.log(segundoSimbolo, typeof segundoSimbolo);
-console.log();
+console.log(primerSimbolo === segundoSimbolo);
+// Tipo Null
+const nulo = null;
+console.log(typeof nulo);

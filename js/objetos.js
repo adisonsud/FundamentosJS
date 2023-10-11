@@ -1,5 +1,4 @@
 //Objetos-------------
-
 const producto = {
   nombre: "Tablet",
   precio: 300,
@@ -40,7 +39,6 @@ console.log('Object Literal Enhacement')
 console.table(newObject)
 
 //Objetos-Manipulacion------------
-
 const producto3 = {
   nombre: "Tablet",
   precio: 300,
