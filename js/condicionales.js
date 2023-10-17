@@ -1,7 +1,7 @@
 //---------------------------------------------
 // Comparación y Operador Estricto
 /*
-    ==  ( Comparación pero no es estricto)
+    ==  ( Comparaciónno es estricto)
     === (Comparación estricta - Revisa valor y tipo de dato)
 */
 const numero1 = 20
