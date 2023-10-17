@@ -5,7 +5,8 @@
         "rootDir": "./src", /* Especifica la carpeta que contiene tus archivos TypeScript. */
         "strict": true, /* Habilita opciones de tipo estrictas para evitar errores comunes. */
         "module": "CommonJS", /* Especifica el sistema de módulos. Puedes usar CommonJS, ESNext, etc. */
-        "esModuleInterop": true /* Mejora la interoperabilidad entre diferentes sistemas de módulos. */
+        "esModuleInterop": true, /* Mejora la interoperabilidad entre diferentes sistemas de módulos. */
+        "lib": ["ES2023", "DOM"]
     },
     "include": ["src/**/*.ts"], /* Patrón para incluir archivos TypeScript en la compilación. */
     "exclude": ["node_modules"] /* Carpeta que debe ser excluida de la compilación. */

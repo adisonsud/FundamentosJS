@@ -5,9 +5,6 @@ console.log(array[2]);
 console.log(array.length);
 console.log(array.toString());
 
-
-
-
 //Manipulacion de arrays
 
 // Añadir elementos al array
