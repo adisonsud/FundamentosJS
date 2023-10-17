@@ -123,13 +123,12 @@ console.log(ejemploReduce);
 //crea un nuevo array en base a la condicion
 console.log(lenguajeProgra);
 const ejemploFilter = lenguajeProgra.filter(tech => tech !== "JavaScript");
-console.log("filterf", ejemploFilter);
+console.log(ejemploFilter);
 //forEach
 /** me permite listar y acceder a cada elemnto
  * se va a ejecutar una vez por cada elemento
  * si no hay ningun elemento no se ejecuta */
-lenguajeProgra.forEach(tech => console.log(tech));
-lenguajeProgra.forEach((tech, index) => console.log(index));
+lenguajeProgra.forEach((tech, index) => console.log(tech, index));
 //map me permite crear un nuevo arreglo
 const ejemploMap = lenguajeProgra.map(tech => tech);
 console.log(ejemploMap);
