@@ -31,18 +31,13 @@ if (saldo > pagar && tarjeta) {
 */
 const autenticado: boolean = true
 autenticado 
-  ? console.log('Usuario Autenticado')
-  : console.log('No autenticado');
+    ? console.log('Usuario Autenticado')
+    : console.log('No autenticado');
 
 //Doble Ternario
 console.log(saldo, pagar, tarjeta);
 saldo > pagar
-  ? console.log('Puedes pagar, con saldo')
-  : tarjeta
+    ? console.log('Puedes pagar, con saldo')
+    : tarjeta
     ? console.log('puedes pagar con tarjeta')
     : console.log('No puedes pagar');
-    
-  
-  
-
-
